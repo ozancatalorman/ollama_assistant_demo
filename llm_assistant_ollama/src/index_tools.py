@@ -5,7 +5,7 @@ def get_current_weather(location):
     """
     Fetches the current weather data of a given location
     """
-    api_key = "634a8ad797f445cc837112431241906"
+    api_key = "your_api_key"
     url = f"http://api.weatherapi.com/v1/current.json?key={api_key}&q={location}"
     response = requests.get(url)
     data = response.json()
