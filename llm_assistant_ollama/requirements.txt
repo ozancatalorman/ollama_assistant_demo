@@ -1,0 +1,5 @@
+requests==2.32.3
+openai==1.35.1
+langchain_experimental==0.0.61
+langchain_core==0.2.8
+
